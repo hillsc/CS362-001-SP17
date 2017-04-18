@@ -5,7 +5,7 @@
     <groupId>edu.osu.cs362</groupId>
     <artifactId>assignment-1</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>Spring Boot GAE Blank Project (from https://github.com/making/spring-boot-gae-blank)</name>
 
@@ -17,7 +17,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <start-class>edu.osu.cs362.App</start-class>
+        <start-class>edu.osu.cs362.Program</start-class>
         <java.version>1.7</java.version>
         <spring-boot-legacy.version>1.0.1.RELEASE</spring-boot-legacy.version>
         <appengine.target.version>1.9.17</appengine.target.version>
