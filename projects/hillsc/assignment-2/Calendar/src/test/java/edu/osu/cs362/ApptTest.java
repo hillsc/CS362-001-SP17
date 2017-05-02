@@ -37,6 +37,20 @@ public class ApptTest {
 		 assertEquals(2017, appt.getStartYear());
 		 assertEquals("Birthday Party", appt.getTitle());
 		 assertEquals("This is my birthday party.", appt.getDescription());         		
+		 appt.setStartDay(19);
+		 appt.setStartMonth(1);
+		 appt.setStartYear(2016);
+		 appt.setStartHour(3);
+		 appt.setStartMinute(7);
+		
+		 assertEquals(3, appt.getStartHour());
+		 assertEquals(7, appt.getStartMinute());
+		 assertEquals(19, appt.getStartDay());
+		 assertEquals(01, appt.getStartMonth());
+		 assertEquals(2016, appt.getStartYear());
+
+
+
 	 }
 
 
