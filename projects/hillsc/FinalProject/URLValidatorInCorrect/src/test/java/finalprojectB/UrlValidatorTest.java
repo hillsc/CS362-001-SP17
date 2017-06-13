@@ -44,70 +44,33 @@ public class UrlValidatorTest extends TestCase {
 	   System.out.println(urlVal.isValid("http://www.amazon.com"));
 
 	   
-	    //try testing invidivual parts of urls that should pass or fail (according to valid code) with valid/invalid part
-/*	
-
-	   //test for valid and invalid scheme 
 
 	   //should pass
 	   System.out.println(urlVal.isValid("http://www.amazon.com"));
 	   System.out.println(urlVal.isValid("ftp://www.amazon.com"));
 	   System.out.println(urlVal.isValid("h3t://www.amazon.com"));
 	   System.out.println(urlVal.isValid("www.amazon.com"));
+	   System.out.println(urlVal.isValid("http://www.amazon.com:80"));
 	   
+	   System.out.println(urlVal.isValid("http://www.amazon.com?action=view"));
 	   //should fail
 	   System.out.println(urlVal.isValid("http:/www.amazon.com"));
 	   System.out.println(urlVal.isValid("http/www.amazon.com"));
 	   System.out.println(urlVal.isValid("h:www.amazon.com"));
 	   System.out.println(urlVal.isValid(":/www.amazon.com"));
-
-	   //test for valid and invalid authority
 	   
-	   //should pass
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   
-	   //should fail
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
 
 
-	   
-	   //test for valid and invalid path
-
-	   //should pass
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
 	   
 	   //should fail
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
+	   System.out.println(urlVal.isValid("htdf"));
+	   System.out.println(urlVal.isValid("http://www.amazon.com?action=!2324"));
+	   System.out.println(urlVal.isValid("http://www.amazon.com/2983?;"));
+	   System.out.println(urlVal.isValid("http://www.amazon.com.comc.sdfoms"));
 
 
-	   //test for valid and invalid query
+;
 
-	   //should pass
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   
-	   //should fail
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-	   System.out.println(urlVal.isValid("http://www.amazon.com"));
-
-*/
-	   //test for valid and invalid fragment
 	   
    }
    
